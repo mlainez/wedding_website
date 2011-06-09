@@ -1,0 +1,131 @@
+/* IE is a crappy browser */
+
+div#polaroids-left{
+  padding: 60px 0 0 10px;
+}
+
+div.polaroid-left-back{
+  top: -10px;
+  left: -20px;
+  
+  filter: progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9396926208,
+      M12=0.3420201433,
+      M21=-0.3420201433,
+      M22=0.9396926208
+  );
+
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9396926208,
+      M12=0.3420201433,
+      M21=-0.3420201433,
+      M22=0.9396926208
+  )";
+}
+
+div.polaroid-left-middle{
+  top: 0px;
+  left: -10px;
+  
+  filter: progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9702957263,
+      M12=0.2419218956,
+      M21=-0.2419218956,
+      M22=0.9702957263
+  );
+      
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9702957263,
+      M12=0.2419218956,
+      M21=-0.2419218956,
+      M22=0.9702957263
+  )";
+}
+
+div.polaroid-left-front{
+  top: 10px;
+  left: 0px;
+    
+  filter: progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9876883406,
+      M12=0.156434465,
+      M21=-0.156434465,
+      M22=0.9876883406
+  );
+      
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9876883406,
+      M12=0.156434465,
+      M21=-0.156434465,
+      M22=0.9876883406
+  )";
+}
+
+div.polaroid-right-back{
+  top: 25px;
+  left: 60px;
+  
+  filter: progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9396926208,
+      M12=-0.3420201433,
+      M21=0.3420201433,
+      M22=0.9396926208
+  );
+      
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9396926208,
+      M12=-0.3420201433,
+      M21=0.3420201433,
+      M22=0.9396926208
+  )";
+}
+
+div.polaroid-right-middle{
+  top: 35px;
+  left: 69px;
+   
+  filter: progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9702957263,
+      M12=-0.2419218956,
+      M21=0.2419218956,
+      M22=0.9702957263
+  );
+      
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9702957263,
+      M12=-0.2419218956,
+      M21=0.2419218956,
+      M22=0.9702957263
+  )";
+}
+
+div.polaroid-right-front{
+  top: 50px;
+  left: 80px;
+  
+  filter: progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9876883406,
+      M12=-0.156434465,
+      M21=0.156434465,
+      M22=0.9876883406
+  );
+      
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(
+      sizingMethod='auto expand',
+      M11=0.9876883406,
+      M12=-0.156434465,
+      M21=0.156434465,
+      M22=0.9876883406
+  )";
+}

@@ -1,0 +1,221 @@
+body{
+  width: 920px;
+  padding-top: 30px;
+  margin: auto;
+  color: #333333;
+  font-family: 'PT Sans', arial, serif;
+  background-color: #eee;
+  padding-bottom: 30px;
+}
+
+strong{
+  font-weight: bold;
+  color: #f80100;
+}
+
+
+/* POLAROID */
+div.polaroid{
+  border: 2px solid black;
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  -moz-box-shadow: 5px 5px 2px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 5px 5px 2px rgba(0,0,0,0.4);
+  box-shadow: 5px 5px 2px rgba(0,0,0,0.4);
+}
+
+div.polaroid img{
+  width: 300px;
+  margin: 25px 25px 0px 25px;
+}
+
+div.polaroid p{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.6em;
+  font-family: 'Rock Salt', arial, serif;
+}
+
+div.polaroid p.minimized{
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+div.polaroids{
+  position: relative;
+  float: left;
+  height: 460px;
+}
+
+div#polaroids-left{
+  padding: 60px 0 0 30px;
+}
+
+div#polaroids-right{
+  padding: 60px 0 0 130px;
+}
+
+div.polaroid-left-back{
+  -webkit-transform: rotate(-20deg); 
+  -moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+
+div.polaroid-left-middle{
+  -webkit-transform: rotate(-14deg); 
+  -moz-transform: rotate(-14deg);
+  -o-transform: rotate(-14deg);
+  transform: rotate(-14deg);
+}
+
+div.polaroid-left-front{
+  -webkit-transform: rotate(-9deg); 
+  -moz-transform: rotate(-9deg);
+  -o-transform: rotate(-9deg);
+  transform: rotate(-9deg);
+}
+
+div.polaroid-right-back{
+  -webkit-transform: rotate(20deg); 
+  -moz-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+div.polaroid-right-middle{
+  -webkit-transform: rotate(14deg); 
+  -moz-transform: rotate(14deg);
+  -o-transform: rotate(14deg);
+  transform: rotate(14deg);
+}
+
+div.polaroid-right-front{
+  -webkit-transform: rotate(9deg); 
+  -moz-transform: rotate(9deg);
+  -o-transform: rotate(9deg);
+  -ms-transform: rotate(9deg);
+  transform: rotate(9deg);
+}
+
+/* END POLAROID */
+
+
+/* SECTION RELATED */
+
+section#container{
+  border: 1px solid #ddd;
+  background-color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+section{
+  clear: both;
+}
+
+section article{
+  margin-top: 60px;
+  float: left;
+  width: 340px;
+}
+
+section article p{
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-bottom: 30px;
+}
+
+section article p.email{
+  margin-left: 50px;
+}
+
+section article p.address{
+  margin-left: 20px;
+}
+
+section article h3{
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+section article img.google{
+  width: 26px;
+}
+
+section p.continue{
+  font-size: 0.9em;
+  font-family: 'Rock Salt', arial, serif;
+  margin: 30px 0 0 110px;
+}
+
+section p.continue a{
+  text-decoration: none;
+  color: #f80100; 
+  -webkit-transition: color 1s ease-in-out;
+  -moz-transition:    color 1s ease-in-out;  
+  -o-transition:      color 1s ease-in-out;  
+  transition:         color 1s ease-in-out;
+}
+
+section p.continue a:hover{
+  color: #FA5858;
+}
+
+section img.continue{
+  width: 24px;
+  margin: 5px 5px 0px 45px;
+}
+
+section img.gift{
+  width: 20px;
+}
+
+section img.house{
+  width: 150px;
+  margin-left: 70px;
+}
+
+section#languages{
+  float: right;
+  margin-top: 10px;
+}
+
+section#introduction article, section#location-party article, section#couple article{
+  float: right;
+}
+
+/* END OF COMMON SECTION CSS */
+
+/* INTRODUCTION */
+
+section#introduction article img.hearts{
+  width: 200px;
+  margin-left: 60px;
+}
+
+section#introduction p.tag-line{
+  font-weight: normal;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+section#introduction time{
+  font-size: 1.4em;
+  margin-left: 45px;
+  font-family: 'Rock Salt', arial, serif;
+  color: #f80100;
+}
+
+/* END OF INTRODUCTION SECTION */
+
+footer{
+  clear: left;
+  height: 40px;
+  font-family: 'Rock Salt', arial, serif;
+  text-align: center;
+}
+
