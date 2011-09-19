@@ -1,4 +1,4 @@
-APP_ROOT = File.expand_path(File.dirname(File.dirname(__FILE__)))
+APP_ROOT = "/var/www/wedding_website"
 
 if ENV['MY_RUBY_HOME'] && ENV['MY_RUBY_HOME'].include?('rvm')
   begin
@@ -28,20 +28,3 @@ pid APP_ROOT + "/tmp/pids/unicorn.pid"
 
 stderr_path APP_ROOT + "/log/unicorn.stderr.log"
 stdout_path APP_ROOT + "/log/unicorn.stdout.log"
-
-before_fork do |server, worker|
-  defined?(ActiveRecord::Base) && ActiveRecord::Base.connection.disconnect!
-
-  old_pid = RAILS_ROOT + '/tmp/pids/unicorn.pid.oldbin'
-  if File.exists?(old_pid) && server.pid != old_pid
-    begin
-      Process.kill("QUIT", File.read(old_pid).to_i)
-    rescue Errno::ENOENT, Errno::ESRCH
-      puts "Old master alerady dead"
-    end
-  end
-end
-
-after_fork do |server, worker|
-  defined?(ActiveRecord::Base) && ActiveRecord::Base.establish_connection
-end
